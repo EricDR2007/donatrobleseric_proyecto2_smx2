@@ -1,6 +1,7 @@
-.div1 {
+.containerdiv {
     margin-right: auto;
     margin-left: auto;
+    width: 1300px;
 }
 body {
     margin: 0;
