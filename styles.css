@@ -1,4 +1,7 @@
-
+div {
+    margin-right: auto;
+    margin-left: auto;
+}
 body {
     margin: 0;
     font-family: 'SF Pro Display', sans-serif;                                          
