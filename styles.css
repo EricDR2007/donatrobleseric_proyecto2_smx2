@@ -3,6 +3,7 @@
     margin-left: auto;
     width: 1512px;
 }
+
 body {
     margin: 0;
     font-family: 'SF Pro Display', sans-serif;                                          
@@ -92,4 +93,60 @@ footer {
     padding: 1rem;
     border-top: 1px solid #ccc;
     margin-top: 2rem;
+}
+
+
+
+
+
+.cayanee {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cars {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.car {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.car img {
+    width: 100%;
+    display: block;
+}
+
+.model {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.presentation {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.all-cars {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
 }
