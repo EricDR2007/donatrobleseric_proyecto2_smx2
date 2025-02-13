@@ -34,33 +34,33 @@ header nav a {
     padding: 2rem;
 }
 
-.hero {
+.texto {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     gap: 2rem;
 }
 
-.hero h1 {
+.texto h1 {
     font-size: 3rem;
     margin: 0;
     flex: 1;
     text-align: left;
 }
 
-.hero-content {
+.texto-content {
     flex: 1;
     text-align: right;
 }
 
-.hero-content p {
+.texto-content p {
     margin: 1rem 0;
     font-size: 1rem;
     max-width: 600px;
     margin-left: auto;
 }
 
-.hero-content button {
+.texto-content button {
     background-color: black;
     color: white;
     border: none;
@@ -71,17 +71,17 @@ header nav a {
     margin-top: 1.5rem;
 }
 
-.hero-content button:hover {
+.texto-content button:hover {
     background-color: #555;
 }
 
-.image-container {
+.container2 {
     margin-top: 2rem;
     display: flex;
     justify-content: center;
 }
 
-.image-container img {
+.container2 img {
     width: 100%;
     max-width: 1024px;
     border-radius: 10px;
