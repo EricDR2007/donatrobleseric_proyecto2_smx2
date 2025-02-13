@@ -99,9 +99,6 @@ footer {
 
 
 
-.cayanee {
-    padding: 20px;
-}
 
 h1 {
     font-size: 36px;
@@ -136,16 +133,15 @@ h1 {
 }
 
 .presentation {
-    color: gray;
+    color: rgb(0, 0, 0);
     margin-bottom: 10px;
 }
 
-.coches {
+.cars {
     margin-top: 20px;
     padding: 10px 20px;
     border: none;
-    background: black;
-    color: white;
+    color: rgb(194, 191, 191);
     font-size: 16px;
     cursor: pointer;
     border-radius: 5px;
