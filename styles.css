@@ -338,7 +338,8 @@ h1 {
 }
 
 .pagos img {
-    width: 50px;
+    width: 30px;
+    height: 30px;
 }
 
 .menu, .boutique-container {
