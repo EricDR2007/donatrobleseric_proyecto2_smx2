@@ -146,3 +146,29 @@ h1 {
     cursor: pointer;
     border-radius: 5px;
 }
+
+.collection {
+    text-align: center;
+    position: relative;
+}
+
+.collection h1 {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.coches {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1.5rem;
+    width: fit-content;
+}
