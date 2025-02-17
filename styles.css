@@ -49,30 +49,30 @@ header nav a {
     text-align: left;
 }
 
-.texto-content {
+.texto {
     flex: 1;
     text-align: right;
 }
 
-.texto-content p {
+.texto p {
     margin: 1rem 0;
     font-size: 1rem;
     max-width: 600px;
     margin-left: auto;
 }
 
-.texto-content button {
-    background-color: black;
-    color: white;
-    border: none;
+.texto button {
+    background-color: white;
+    color: black;
+    border: 1px, solid black;
     padding: 0.8rem 1.2rem;
     font-size: 1rem;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-top: 1.5rem;
 }
 
-.texto-content button:hover {
+.texto button:hover {
     background-color: #555;
 }
 
