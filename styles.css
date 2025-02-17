@@ -285,3 +285,102 @@ h1 {
     width: 80%;
     border-radius: 10px;
 }
+
+
+
+
+
+.container5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.texto-container {
+    flex: 1;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.texto-container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding: 5px 0;
+    width: 300px;
+}
+
+.email-container input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    flex-grow: 1;
+}
+
+.flecha {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.pagos {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.pagos img {
+    width: 50px;
+}
+
+.menu, .boutique-container {
+    flex: 1;
+    text-align: center;
+}
+
+.menu-container h3, .boutique-container h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.menu-container ul, .boutique-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-container ul li, .boutique-container ul li {
+    font-size: 14px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.boton2 {
+    display: block;
+    background: transparent;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    margin: 10px auto;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.redes img {
+    width: 25px;
+    cursor: pointer;
+}
