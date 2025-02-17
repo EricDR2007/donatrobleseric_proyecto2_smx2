@@ -75,6 +75,43 @@ header nav img {
     cursor: pointer;
     border-radius: 20px;
     margin-top: 11rem;
+
+}
+
+.paginacion {
+    display: flex;
+    align-items: center;
+}
+
+.paginacion span {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.texto span {
+    padding: 0.8rem 1.2rem;
+    margin-top: 11rem;
+    height: 90px;
+    width: 120px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.progress-bar {
+    width: 100px;
+    height: 4px;
+    background: lightgray;
+    position: relative;
+}
+
+.progress-bar::before {
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 100%;
+    background: black;
 }
 
 .container2 {
