@@ -186,13 +186,15 @@ h1 {
 }
 
 .collection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    position: relative;
 }
 
 .collection h1 {
     text-align: center;
-    display: inline-block;
+    display:flex ;
     width: 100%;
 }
 
@@ -200,13 +202,13 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: 0;
-    background-color: black;
-    color: white;
-    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
     padding: 0.8rem 1.2rem;
     font-size: 1rem;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 50px;
     margin-top: 1.5rem;
     width: fit-content;
 }
