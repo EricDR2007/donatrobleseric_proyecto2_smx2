@@ -194,9 +194,10 @@ h1 {
 }
 
 .collection h1 {
-    text-align: center;
+    text-align: center ;
     display:flex ;
     width: 100%;
+    justify-content: space-between;
 }
 
 .coches {
