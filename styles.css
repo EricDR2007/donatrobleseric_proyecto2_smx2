@@ -262,71 +262,70 @@ h1 {
 }
 
 
-
-
-.container4 {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-}
-
-h1 {
-    font-size: 36px;
-    font-weight: bold;
-    text-align: left;
-    margin-bottom: 30px;
-}
-
-
-.padre-productos{
+.producto_padre {
     display: flex;
     gap: 20px;
 }
-.producto {
-}
 
-.producto div {
-    padding: 15px;
-    border-radius: 10px;
-}
-
-.producto img {
-    width: 200px;
-    border-radius: 10px;
-}
 
 .productos {
+    font-size: .78em;
+    width: 90%;
+    text-align: justify;
+}
+.circulo {
     display: flex;
+    justify-content: end;
+    gap: 50px;
     align-items: center;
+    margin: 80px 0;
+}
+
+.circulo2 {
+    display: flex;
     justify-content: center;
-    margin-top: 40px;
-}
-
-.productos div {
-    width: 120px;
-    height: 120px;
-    border: 2px solid black;
-    border-radius: 50%;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    text-align: center;
-    font-size: 14px;
+    padding: 40px;
+    border: 1px solid #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    top: -35px;
 }
 
-.p911 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.circulo3 {
+    text-transform: uppercase;
     text-align: center;
-    margin-top: 40px;
 }
 
-.p911 img {
-    width: 80%;
-    border-radius: 10px;
+.imagen-coche {
+    object-fit: cover;
+    width: 728px;
+    height: 317px;
+    border-radius: 20px;
 }
+
+.texto_coche {
+    margin-top: 35px;
+}
+
+.texto_coche2 {
+    margin-top: 8px;
+    font-size: .85em;
+    font-style: italic;
+    font-weight: 300;
+    color: #333;
+}
+
+.separacion {
+    margin: 60px 0;
+    margin-top: 130px;
+}
+
+
+
+
 
 
 
