@@ -99,21 +99,6 @@ header nav img {
     margin-right: 10px;
 }
 
-.progress-bar {
-    width: 100px;
-    height: 4px;
-    background: lightgray;
-    position: relative;
-}
-
-.progress-bar::before {
-    content: "";
-    position: absolute;
-    width: 20%;
-    height: 100%;
-    background: black;
-}
-
 .container2 {
     margin-top: 2rem;
     display: flex;
