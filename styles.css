@@ -289,10 +289,12 @@ h1 {
     width: 728px;
     height: 317px;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .texto_coche {
     margin-top: 35px;
+    margin-right: 200px;
 }
 
 .texto_coche2 {
@@ -302,6 +304,8 @@ h1 {
     font-weight: 300;
     color: #333;
 }
+
+
 
 
 
