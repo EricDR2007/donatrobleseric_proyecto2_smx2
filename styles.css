@@ -45,13 +45,19 @@ header nav img {
     align-items: flex-start;
     justify-content: space-between;
     gap: 2rem;
-}
 
+}
+.texto h3{
+    padding-top: 40px;
+    font-size: 13px;
+    font-weight: 500px;
+}
 .texto h1 {
     font-size: 3rem;
     margin: 0;
     flex: 1;
     text-align: left;
+    font-size: 96px;
 }
 
 .texto {
