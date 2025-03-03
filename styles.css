@@ -331,99 +331,119 @@ h1 {
 
 
 
-.container5 {
+.footer {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    max-width: 1200px;
-    margin: auto;
-    padding: 40px 20px;
 }
 
-.texto-container {
-    flex: 1;
-    text-align: left;
-    padding-left: 50px;
-}
-
-.texto-container h1 {
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 1.2;
-}
-
-.email-container {
+.footer_principio {
     display: flex;
-    align-items: center;
-    border-bottom: 1px solid #000;
-    padding: 5px 0;
-    width: 300px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.email-container input {
-    border: none;
-    outline: none;
-    font-size: 16px;
-    flex-grow: 1;
-}
-
-.flecha {
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.pagos {
-    display: flex;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.pagos img {
-    width: 30px;
-    height: 30px;
-}
-
-.menu, .boutique-container {
-    flex: 1;
-    text-align: center;
-}
-
-.menu-container h3, .boutique-container h3 {
-    font-size: 16px;
-    font-weight: bold;
+.footer_titulo2 {
+    font-size: 4em;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+    width: 90%;
     margin-bottom: 10px;
 }
 
+.footer_color {
+    margin: 20px 0;
+    padding: 10px;
+    width: 30%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+    outline: 0;
+    color: #333;
+}
 
-.menu-container ul, .boutique-container ul {
-    list-style: none;
+.footer_input::placeholder {
+    color: #ccc;
+}
+
+.logos_pay {
+    display: flex;
+    gap: 50px;
+    margin: 50px 0;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer3 {
+    display: flex;
+    gap: 40px;
+}
+
+.footer_menu {
+    width: 100px;
+}
+
+.titulo-menu, .titulo-productos {
+    margin-bottom: 30px;
+}
+
+.lista_menu, .lista_productos {
     padding: 0;
 }
 
-.menu-container ul li, .boutique-container ul li {
-    font-size: 14px;
-    margin-bottom: 5px;
-    cursor: pointer;
+.menu, .producots2 {
+    list-style: none;
+    padding: 5px 0;
+    width: 100px;
 }
 
-.boton2 {
-    display: block;
-    background: transparent;
-    border: 1px solid #000;
-    padding: 10px 20px;
-    margin: 10px auto;
-    cursor: pointer;
-    font-size: 14px;
+.botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 250px;
+}
+
+.boton_footer{
+    margin-top: 50px;
+}
+
+.boton_footer2 {
+    width: 150px;
+}
+
+.productos_footer {
+    width: 120px;
+}
+
+.lista_productos {
+    width: 150px;
+}
+
+.productos2{
+    width: 150px;
+}
+
+.redes_sociales {
+    display: flex;
+    margin: 50px 0;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 .redes {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    margin-top: 40px;
+    width: 80%;
+    gap: 70px;
+    margin-left: 30px;
 }
 
-.redes img {
-    width: 25px;
-    cursor: pointer;
+.footer_final {
+    transform: scale(1.5);
 }
